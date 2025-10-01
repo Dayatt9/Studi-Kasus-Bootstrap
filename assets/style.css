@@ -1,0 +1,39 @@
+ body {
+      /* Agar warna background konsisten dengan Instagram */
+      background-color: #000;
+    }
+    .feed-image {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .highlight-pic {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+    }
+    .highlight-new {
+      width: 80px;
+      height: 80px;
+      border: 2px solid grey;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .nav-tabs .nav-link {
+        color: grey;
+    }
+    .nav-tabs .nav-link.active {
+        color: white;
+        background-color: transparent;
+        border-color: white;
+        border-bottom: 1px solid white;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
